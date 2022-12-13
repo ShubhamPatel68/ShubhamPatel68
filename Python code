@@ -1,0 +1,873 @@
+Jupyter Notebook
+13 0f august
+Current Kernel Logo
+Python 3 (ipykernel) 
+
+Code
+name = 'shubham patel'
+adress = 'rampur, dewali, phoolpur, prayagraj, utter pradesh'
+studying = 'jain university banglore'
+
+print(name)
+print(adress)
+print(studying)
+
+shubham patel
+rampur, dewali, phoolpur, prayagraj, utter pradesh
+jain university banglore
+
+len(name)
+
+13
+
+len(adress)
+50
+
+len(studying)
+24
+
+type(name)
+str
+
+print(name[2])
+u
+
+print(adress[3:])
+pur, dewali, phoolpur, prayagraj, utter pradesh
+
+print(studying[-10])
+y
+
+print(studying[:-10])
+jain universit
+
+print(name[11:])
+el
+print(adress[0])
+r
+
+print(adress[3:19])
+pur, dewali, pho
+
+print(adress[1:50])
+ampur, dewali, phoolpur, prayagraj, utter pradesh
+
+print(adress[1:-5])
+ampur, dewali, phoolpur, prayagraj, utter pr
+
+print(adress[0:50])
+#1st and 50th word also include
+rampur, dewali, phoolpur, prayagraj, utter pradesh
+
+str2 = 'this is a word'
+#replace the word in str2 by 'sentence'
+
+str2 =str2. replace('word','sentence')
+str2
+ANSWER = 'this is a sentence'
+
+print(str1)
+ANSWER - this is a word
+
+print(str1[3])
+S
+
+you = '           this is my laptop           '
+you.strip()
+ANSWER= 'this is my laptop'
+
+you.lstrip()
+ANSWER= 'this is my laptop           '
+
+you.rstrip()
+ANSWER= '           this is my laptop'
+
+you.upper()
+ANSSWER= '           THIS IS MY LAPTOP           '
+
+you.lower()
+ANSWER='           this is my laptop           '
+
+
+
+#typecasting
+
+#typecasting = if we add two typecasting then it work like as mathematical operation
+x = 123313
+y = 4444444
+
+x+y
+ANSWER=4567757
+
+x-y
+ANSWER=-4321131
+
+y/x
+ANSWER=36.041974487685806
+
+#when two string add  then it add like join oon number with another
+a = '21333'
+b = '23441'
+
+a + b
+ANSWER='2133323441'
+
+r = '1231344wqdsv'
+s = 'wf2423452'
+r+s
+ANSWER = '1231344wqdsvwf2423452'
+
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+#'there is a word' printing pyramid in reverse order
+i = 1
+k = 1
+while i <= 5:
+    b = 1
+    while b <= 5-i:
+        print(' ',end = ' ')
+        b = b + 1
+    j = 1
+    while j <=k:
+        print(' * ',end =' ')
+        j = j+1
+    k = k + 2
+    print ()
+    i = i +1
+print(str1)
+this is a word
+print(str1[3])
+
+using   for loop pyramid printing 
+for i in range (1,6):
+    for j in range(1, i + 1):
+        print('*', end = ' ')
+    print()
+    
+Table Printing 
+x = int(input('enter your number to find table'))
+for y in range(1,11):
+       print(x * y) 
+       
+       
+ i = 1
+k = 1
+while i <= 5:
+    b = 1
+    while b <= 5-i:
+        print(' ',end = ' ')
+        b = b + 1
+    j = 1
+    while j <=k:
+        print(k ,end =' ')
+        j = j+1
+    k = k + 2
+    print ()
+    i = i +1
+   SOLUTION 
+           1 
+      3 3 3 
+    5 5 5 5 5 
+  7 7 7 7 7 7 7 
+9 9 9 9 9 9 9 9 9
+
+
+i = 1
+k = 1
+while i <= 5:
+    b = 1
+    while b <= 5-i:
+        print(' ',end = ' ')
+        b = b + 1
+    j = 1
+    while j <=k:
+        print(i ,end =' ')
+        j = j+1
+    k = k + 2
+    print ()
+    i = i +1
+    
+        1 
+      2 2 2 
+    3 3 3 3 3 
+  4 4 4 4 4 4 4 
+5 5 5 5 5 5 5 5 5 
+
+
+i = 1
+k = 1
+while i <= 5:
+    b = 1
+    while b <= 5-i:
+        print(' ',end = ' ')
+        b = b + 1
+    j = 1
+    while j <=k:
+        print(j ,end =' ')
+        j = j+1
+    k = k + 2
+    print ()
+    i = i +1
+        1 
+      1 2 3 
+    1 2 3 4 5 
+  1 2 3 4 5 6 7 
+1 2 3 4 5 6 7 8 9
+
+
+# printing pyramid in reverse order
+i = 1
+k = 1
+while i <= 5:
+    b = 1
+    while b <= 5-i:
+        print(' ',end = ' ')
+        b = b + 1
+    j = 1
+    while j <=k:
+        print(' * ',end =' ')
+        j = j+1
+    k = k + 2
+    print ()
+    i = i +1
+             *  
+       *   *   *  
+     *   *   *   *   *  
+   *   *   *   *   *   *   *  
+ *   *   *   *   *   *   *   *   * 
+
+i = 1
+while i <= 6 :
+    j = 1
+    while j <= i:
+        print( i , end = ' ')
+        j = j + 1
+    print()
+    i = i + 1
+    
+    # printing pyramid in reverse order
+i = 1
+while i <= 6:
+    b = 1
+    while b <= 6-i:
+        print(' ',end = ' ')
+        b = b + 1
+    while j <= i:
+        print (' * ',end =' ')
+        j = j + 1
+    print( )
+    i = i +1
+       
+    # pyramid printing 
+i = 1
+while i <= 6:
+    j = 1
+    while j <= i:
+        print(' *',end= ' ')
+        j = j +1
+    i = i +1
+    print()
+ * 
+ *  * 
+ *  *  * 
+ *  *  *  * 
+ *  *  *  *  * 
+ *  *  *  *  *  *
+# to find out the factorial of any number
+i = int(input('enter your number :'))
+fact = 1
+while(i>0):
+    fact = fact * i
+    i = i - 1
+print('factorial is :',fact)
+
+# to check the number is either prime number or not 
+n = int(input('Enter your number :'))
+count = 0
+i = 1
+while(i<=n):
+    if(n%i==0):
+        count = count+1
+    i = i+1
+if (count == 2):
+    print('The number is prime number ')
+else :
+    print('number is  not a prime number ')
+    
+  # Palindrome = Palindrome is a number ,when we reverse any number then we get same number 
+# eg = 525 , when we reverse then again we get same number 525
+i = int(input('Enter your number :'))
+rev = 0
+x = i
+while(i>0):
+    rev = (rev *10)+i%10
+    i = i // 10
+if (x == rev):
+    print('the number is palindrome :')
+else:
+    print('the number is not a palindrome : ')
+
+# TO find sum of even number and product of odd number 
+i = int(input('Enter your number : '))
+sum = 0
+product = 1
+while (i >0):
+    d = i % 10
+    if (d%2 == 0):
+        sum = sum + d 
+    else:
+        product = product *d
+    i = i//10
+print('sum of digit is : ',sum  , 'product of digit is :',product)
+    
+   # Reverse a number 
+i = int (input ('Enter your number :'))
+rev = 0
+while(i >0):
+    rev = (rev*10)+i%10
+    i = i//10
+print('Reverse ', rev)
+
+salary = int(input ('enter your salary'))
+taax = salary * 0.30
+safe_salary = salary-taax
+print(safe_salary)
+
+i = int(input('Enter your to find the product of a given number : '))
+product  = 1
+while(i>0):
+    product = product * (i%10)
+    i = i // 10
+print('product is : ', product)
+ANSWER = Enter your to find the product of a given number : 123
+product is :  6 
+
+# Check weather the value is armstrong or not
+# Armstron number is the number whose sum of cube is same as the number 
+i = int(input('Enter your number to check for armstrong : '))
+orig = i
+sum = 0
+while (i>0):
+    sum = sum + (i%10)*(i%10)*(i%10)
+    i = i//10
+if orig == sum :
+    print('the number is armstrong :')
+else :
+    print('the number is not armstrong :')
+ ANSWER= Enter your number to check for armstrong : 147
+the number is not armstrong :
+
+# sum of cube of a given number 
+i = int(input('Enter your number : '))
+sum =  0
+while(i >0):
+    sum = sum + (i%10)*(i%10)*(i%10)
+    i = i //10
+print('sum of the number is :', sum)
+ANSWER = Enter your number : 123
+sum of the number is : 36
+
+# sum of digit of square of a given number 
+i = int(input('Enter your number : '))
+sum =0
+while(i >0):
+    sum = sum + (i%10)*(i%10)  # % means find remender 
+    i = i//10                  # // means remove decimal value
+print('sum of the number is :',sum)
+ANSWER = Enter your number : 234
+sum of the number is : 29
+
+# sum of the digit of a number 
+i = int(input('Enter your number '))
+sum = 0
+while(i > 0):
+    sum = sum  + i%10
+    i = i//10
+print('sum of the number is :', sum)
+ANSWER = Enter your number 234
+sum of the number is : 9
+
+#sum of even number 
+n = int(input('Enter number :' ))
+i = 2
+sum = 0
+while(i<=n):
+    sum = sum + i
+    i = i + 2 
+print('sum of the number is :',sum)
+ANSWER = Enter number :12
+sum of the number is : 42
+
+n = int(input('Enter your number :'))
+i = 1
+sum = 0
+while(i <= n):
+    sum = sum + i
+    i = i + 1
+    print ('sum of the number is ', sum)
+   ANSWER=
+Enter your number :4
+sum of the number is  1
+sum of the number is  3
+sum of the number is  6
+sum of the number is  10
+
+i = 4
+while i<=4:
+    j = 1 
+    while j <=i:
+        print(i , end = ' ')
+        j = j+1 
+    print()
+    i = i+1
+    ANSWER = 4 4  4 4 
+    
+    
+    
+Matplotlib and Seaborn
+
+# Line chart
+
+x = [2,3,4,5,6,7,8]
+y = [3,8,6,9,2,5,7]
+plt.plot(x,y,'r')
+![download](https://user-images.githubusercontent.com/115579130/207271111-993bb0e2-70d3-40a7-be77-26984ead23ae.png)
+
+cars = ['Audi','MErc','Skoda','BMW','MAruti']
+sales = [12,15,16,5,26]
+plt.pie(sales, labels = cars)
+
+plt.show()
+![download](https://user-images.githubusercontent.com/115579130/207271501-1bffa752-f159-4d5a-92d7-51cde83107d4.png)
+
+# Customizing Pie Chart
+
+import numpy as np
+
+# Creating dataset
+cars = ['Fortuner','Oddi','BMW','Allto800','Bugati','Thar']
+  
+data = [12 ,22 ,34 ,6 ,43 ,4]
+  
+  
+# Creating explode data
+explode = (0.1, 0.0, 0.2, 0.3, 0.0, 0.0)
+  
+# Creating color parameters
+colors = ( "orange", "cyan", "brown",
+          "grey", "indigo", "beige")
+  
+# Wedge properties
+wp = { 'linewidth' : 1, 'edgecolor' : "green" }
+  
+# Creating autocpt arguments
+def func(pct, allvalues):
+    absolute = int(pct / 100.*np.sum(allvalues))
+    return "{:.1f}%\n({:d} g)".format(pct, absolute)
+  
+# Creating plot
+fig, ax = plt.subplots(figsize =(10, 7))
+wedges, texts, autotexts = ax.pie(data, 
+                                  autopct = lambda pct: func(pct, data),
+                                  explode = explode, 
+                                  labels = cars,
+                                  shadow = True,
+                                  colors = colors,
+                                  startangle = 90,
+                                  wedgeprops = wp,
+                                  textprops = dict(color ="magenta"))
+  
+# Adding legend
+ax.legend(wedges, cars,
+          title ="Cars",
+          loc ="center left",
+          bbox_to_anchor =(1, 0, 0.5, 1))
+          
+plt.setp(autotexts, size = 8, weight ="bold")
+ax.set_title("Customizing pie chart")
+  
+# show plot
+plt.show()
+![download](https://user-images.githubusercontent.com/115579130/207271925-66510e16-5ed7-4418-a8fe-fade0ef3521d.png)
+
+
+cars  = ['audi','alto','fortuner','rang rower','creta']
+sales = [12,23,3,4,56,]
+plt.bar(cars,sales)
+plt.shoW()
+[download](https://user-images.githubusercontent.com/115579130/207272010-19d4b5a3-a1d4-4316-a749-5c03683e5009.png)
+
+cars  = ['audi','alto','fortuner','rang rower','creta']
+sales = [12,23,3,4,56,]
+plt.plot(cars,sales)
+plt.show()
+![download](https://user-images.githubusercontent.com/115579130/207272202-1c558858-9633-4978-8bc8-c77955ad69c0.png)
+
+x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,24,12,3,23,4]
+plt.hist(x)
+plt.show()
+[download](https://user-images.githubusercontent.com/115579130/207272265-d982eb68-03af-4917-b69d-c32faa71d78f.png)
+
+# scatter graph 
+
+score = [12,23,45,55,65,78,54,21,32,45,66,77]
+
+revenue = [1,2.22,3,4,5,5.4,7,8,9,5.5,6.6,6.9]
+
+plt.scatter(score, revenue)
+plt.title('score with revenue')
+plt.xlabel('score')
+plt.show()
+
+![download](https://user-images.githubusercontent.com/115579130/207272481-b5e89f27-e889-4f47-82b2-b341b1970ae3.png)
+
+cars = ['Audi','MErc','Skoda','BMW','MAruti']
+sales = [12,15,16,5,26]
+
+fig = plt.figure(figsize =(10, 7))
+plt.pie(sales, labels = cars)
+
+plt.show()
+
+![download](https://user-images.githubusercontent.com/115579130/207272569-352d5737-713e-468f-b4a6-a9868b4d118a.png)
+
+
+car = ['wqw','wedwe','edeq','edwq']
+sale = [23,42,4,56]
+
+plt.scatter(sale,car)
+plt.show()
+![download](https://user-images.githubusercontent.com/115579130/207272667-f8be9fdc-f1a0-40c3-ada4-f7fddd0d922c.png)
+
+cars = ['Audi','MErc','Skoda','BMW','MAruti']
+sales = [12,15,16,5,26]
+
+fig = plt.figure(figsize =(10, 7))
+plt.pie(sales, labels = cars)
+
+plt.show()
+![download](https://user-images.githubusercontent.com/115579130/207272718-c2ad80b4-41eb-4dee-abc3-cf78e5f3dde4.png)
+
+c = [1,4,5,3,5,2,6,8,5,9,6]
+t = [2,5,4,7,8,6,8,2,1,6,4]
+plt.plot(c,t,'g')
+plt.show()
+![download](https://user-images.githubusercontent.com/115579130/207272804-97067f76-90fb-43de-8645-200d72f945e5.png)
+
+try: 
+    num1=int(input("Enter number 1:"))
+    num2=int(input("Enter number 2:"))
+    if num1 > num2:
+        print(num1 ,'is greater')
+    elif num1 == num2:
+        print('both are equal')
+    else: 
+        print(num2, 'is greater')
+except ValueError:
+        print("You have not entered a number")
+except NameError:
+        print("Given variable does not exist")
+except:
+        print("Code ran into a problem. Retry")
+else:
+        print("Transaction completed successfully")
+
+
+
+Conditional Statement
+ 
+ sal_val = int(input('enter your yearly salary:'))
+tax = sal_val*0.10
+print('tax to be paid',tax)
+ANSWER = 
+enter your yearly salary:5000
+tax to be paid 500.0 
+
+sal_val = int(input('enter your yearly salary:'))
+if sal_val<=50000:
+    tax_paid= sal_val * 0.10
+    print('tax to be paid is',tax_paid)
+    
+else:
+    tax_paid = sal_val * 0.15
+    print('tax to be paid is ',tax_paid)
+ ANSWER = 
+ 
+enter your yearly salary:10000
+tax to be paid is 1000.0
+
+sal_val = int(input('enter your yearly salary:'))
+if sal_val <=50000:
+    tax_paid = sal_val * 0.10
+    print('tax to be paid',tax_paid)
+elif sal_val>= 100000:
+    tax_paid = sal_val * 0.30
+    print('tax to paid ',tax_paid)
+else:
+    tax_paid = sal_val * 0.15
+    print('tax to be paid', tax_paid)
+ ANSWER = 
+enter your yearly salary:60000
+tax to be paid 9000.0
+
+# Nested If 
+
+
+# if test expression :
+# if test_expression:
+
+#block of code
+#  else :
+
+#    block of code
+
+sal_val = int(input('enter your yearly salary:'))
+num_child = int(input('enter number of children you have:'))
+
+if sal_val <=50000:
+    tax_paid  = sal_val * 0.10
+    print('tax to be paid',tax_paid)
+    if num_child >2:
+        edu_allowence = 3000
+        print('you are eligible for education allowence of Rs ',edu_allowence)
+    else :
+        print('you are not eligible for educational allowence')
+elif sal_val>= 100000:
+    tax_paid = sal_val * 0.20
+    print('tax to be paid ', tax_paid)
+else :
+    tax_paid = sal_val * 0.15
+    print('tax to be paid',tax_paid)
+ANSWER = 
+enter your yearly salary:10000
+enter number of children you have:3
+tax to be paid 1000.0
+you are eligible for education allowence of RS 3000
+
+num_val = int(input('enter any number :'))
+
+if num_val>300:
+    print('the Numbber is Grater is 300')
+else :
+    print('The Number is Less Than 300')
+    
+    print('Will i be Printed or not The Number ib less than 300')
+    
+ANSWER = 
+enter any number :234
+The Number is Less Than 300
+Will i be Printed or not The Number ib less than 300
+
+list_a = ['Narendra Modi ','Jubin Nautiyal','Salman','Dhoni','musk']
+#Iterating through a list
+
+if 'Dhoni' in list_a :
+    print('Dhoni is present in list')
+else:
+    print('Dhoni is missing in this list')
+ ANSWER =    
+Dhoni is present in list
+
+# while
+
+counter  = 0
+
+while(counter<34):
+    print('the counter value is ',counter)
+    counter = counter + 1
+ ANSWER = 
+ the counter value is  0
+the counter value is  1
+the counter value is  2
+the counter value is  3
+the counter value is  4
+the counter value is  5
+the counter value is  6
+the counter value is  7
+the counter value is  8
+the counter value is  9
+the counter value is  10
+the counter value is  11
+the counter value is  12
+the counter value is  13
+the counter value is  14
+the counter value is  15
+the counter value is  16
+the counter value is  17
+the counter value is  18
+the counter value is  19
+the counter value is  20
+the counter value is  21
+the counter value is  22
+the counter value is  23
+the counter value is  24
+the counter value is  25
+the counter value is  26
+the counter value is  27
+the counter value is  28
+the counter value is  29
+the counter value is  30
+the counter value is  31
+the counter value is  32
+the counter value is  33
+
+
+# For Loop
+
+for number in range (1,50,5):
+    print(number)
+ ANSWER = 
+   for number in range (1,50,5):
+    print(number)
+for number in range (1,50,5):
+    print(number)
+1
+6
+11
+16
+21
+26
+31
+36
+41
+46
+
+
+numlist = [122,435,454,56,67,77,78,89,765,465,3446]
+
+sum = 0 
+
+for listnum in numlist :
+    sum = sum + listnum
+    print(sum)
+print('final accumulated sum is ',sum)
+ANSWER =
+
+122
+557
+1011
+1067
+1134
+1211
+1289
+1378
+2143
+2608
+6054
+final accumulated sum is  6054
+
+numlist = [21, 3,454,656 ,7,6,6768,787,56,4,34,35,6,7]
+for num in numlist:
+    if num>60:
+        print(num)
+ ANSWER =
+ 454
+656
+6768
+787
+
+# Functions 
+# Error Handling
+
+numlist = [12,34,45,66,77,88,88,9,35,56,567,78,33,56,2234]
+sum(numlist)
+
+ANSWER = 3478
+
+const = 2 
+var = 1
+while(var<=10):
+    pro = const * var
+    print(const ,'*',var, '=',pro)
+    var+=1
+ANSWER = 
+
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20
+
+const = 2 
+varb = 1
+while(varb<=10):
+    sol = const * varb
+    print(sol)
+    varb +=1
+ ANSWER = 
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+# Functions
+
+
+#def function name():
+#statement1
+#statement2
+
+def addnum(num1,num2):
+    total = num1 + num2
+    print(total)
+ 
+ addnum(23325,4578689)
+ 
+ ANSWER = 4602014
+ 
+ def addnum(num1,num2):
+    total = num1 +num2
+    #print(tital)
+    return total
+    
+  addnum(12,12)
+  
+  ANSWER = 24
+  
+  current_balance = 450000
+
+def withdraw_money(money_i_need):
+    new_bal =current_balance - money_i_need
+    print('money withdrawn by you',money_i_need)
+    print('your total amount', new_bal)
+   
+   withdraw_money(10000)
+   
+   ANSWER = 
+   money withdrawn by you 10000
+   your total amount 440000
+   
+current_bal =10000
+
+def withdrawn_money(money_you_need):
+    balance = current_bal-money_you_need
+    print(money_you_need)
+    print('safe amount',balance)
+    
+withdrawn_money(1000)
+
+ANSWER = 
+1000
+safe amount 9000
+
+Balance = withdrawn_money(1000)
+Balance
+
+ANSWER = 
+1000
+safe amount 9000
+
+list¶
+ 
